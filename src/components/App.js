@@ -10,7 +10,7 @@ class App extends React.Component {
       <BrowserRouter>
         <Switch>
           <Route exact path="/" component={Home} />
-          <Route exact path="/404" component={NoMatch}/>
+          <Route component={NoMatch}/>
         </Switch>
       </BrowserRouter>
     );
